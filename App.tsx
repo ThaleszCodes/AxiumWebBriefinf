@@ -3,7 +3,7 @@ import { BriefingData, INITIAL_DATA } from './types';
 import { openWhatsApp, formatBriefingMessage } from './utils';
 import { FormSection } from './components/FormSection';
 import { TextField, TextAreaField, RadioGroup } from './components/InputComponents';
-import { Send, CheckCircle2, AlertCircle, Copy, Rocket, Star, TrendingUp, Monitor } from 'lucide-react';
+import { Send, CheckCircle2, Copy, Rocket, Star, TrendingUp, Monitor } from 'lucide-react';
 
 const App: React.FC = () => {
   const [formData, setFormData] = useState<BriefingData>(INITIAL_DATA);
